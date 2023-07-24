@@ -4,7 +4,7 @@
    ```
    git clone https://github.com/SouliSun/shibboleth-idp.git
     ```
-2. Go to where the configuration located**
+2. Go to where the configuration located
    ```
    cd idp/
    ```
