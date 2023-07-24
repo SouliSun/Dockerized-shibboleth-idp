@@ -1,6 +1,6 @@
 # How to execute Shibboleth Identity Provider
 ## Steps to follow
-1. Download the source from Github repository**
+1. Download the source from Github repository
    ```
    git clone https://github.com/SouliSun/shibboleth-idp.git
     ```
