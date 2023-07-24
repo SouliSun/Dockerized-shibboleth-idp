@@ -1,5 +1,5 @@
 # How to execute Shibboleth Identity Provider
-##Steps to follow
+## Steps to follow
 1. Download the source from Github repository
    ```
    git clone https://github.com/SouliSun/shibboleth-idp.git
@@ -20,7 +20,7 @@
    ```
    docker compose up -d
    ```
-##Configuration files you may want to modify
+## Configuration files you may want to modify
 1. Adding your service provider Metadata
    - In order to do it you have to first to put in metadata folder, for example :
 ```
