@@ -22,4 +22,14 @@
    ```
 **Configuration files you may want to modify**
 1. Adding your service provider Metadata
-   - In order to do that you have to add the metadata in **metadata-provider.xml**
+   - In order to do it you have to first to put in metadata folder, for example :
+```
+cd idp/ext-conf/metadat/sp-metadata.xml
+```     
+   - And also you got to add a reference to the metadata of your SP in **metadata-providers.xml**
+```
+cd idp/ext-conf/conf/metadata-providers.xml
+```
+2. Modify ldap configuration
+   - Basically we already using a openldap docker image which we mentionned already in docker compose. You can remove it and work with your own ldap server but First you have to :
+   - test
