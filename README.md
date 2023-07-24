@@ -1,10 +1,10 @@
 # How to execute Shibboleth Identity Provider
 ## Steps to follow
-1. Download the source from Github repository
+**Download the source from Github repository**
    ```
    git clone https://github.com/SouliSun/shibboleth-idp.git
     ```
-2. Go to where the configuration located
+**Go to where the configuration located**
    ```
    cd idp/
    ```
