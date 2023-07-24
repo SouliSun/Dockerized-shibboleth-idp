@@ -32,5 +32,6 @@ cd idp/ext-conf/conf/metadata-providers.xml
 ```
 2. Modify ldap configuration
    - Basically we already using a openldap docker image which we mentionned already in docker compose. You can remove it and work with your own ldap server but First you have to :
-     2.1. Modify ldap configuration file which is **ldap.properties**
+     
+      Modify ldap configuration file which is **ldap.properties**
 
