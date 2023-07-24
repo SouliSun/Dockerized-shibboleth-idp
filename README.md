@@ -9,5 +9,14 @@
    cd idp/
    ```
 5. Replace localhost with your own DNS
-6. Build docker image
-7. Run shibboleth IDP container
+   ```
+   ./replace_domain.sh your_domain_name ext-conf/
+   ```
+7. Build docker image
+      ```
+   ./build.sh
+   ```
+9. Run shibboleth IDP container
+   ```
+docker compose up -d
+   ```
