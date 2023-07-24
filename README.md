@@ -4,20 +4,22 @@
    ```
    git clone https://github.com/SouliSun/shibboleth-idp.git
     ```
-3. Go to where the configuration located
+2. Go to where the configuration located
    ```
    cd idp/
    ```
-5. Replace localhost with your own DNS
+3. Replace localhost with your own DNS
    ```
    ./replace_domain.sh your_domain_name ext-conf/
    ```
-7. Build docker image
+4. Build docker image
       ```
    ./build.sh
    ```
-9. Run shibboleth IDP container
+5. Run shibboleth IDP container
    ```
    docker compose up -d
    ```
 **Configuration files you may want to modify**
+1. Adding your service provider Metadata
+   - In order to do that you have to add the metadata in **metadata-provider.xml**
