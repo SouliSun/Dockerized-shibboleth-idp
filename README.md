@@ -1,2 +1,3 @@
 # How to execute Shibboleth Identity Provider
-## Download the source from Github Repository
+**Ordered List:**
+1. Download the source from Github repository
