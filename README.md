@@ -18,5 +18,5 @@
    ```
 9. Run shibboleth IDP container
    ```
-docker compose up -d
+   docker compose up -d
    ```
