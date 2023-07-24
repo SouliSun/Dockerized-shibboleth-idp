@@ -25,7 +25,8 @@
    - In order to do it you have to first to put in metadata folder, for example :
 ```
 cd idp/ext-conf/metadat/sp-metadata.xml
-```     
+```
+  
    - And also you got to add a reference to the metadata of your SP in **metadata-providers.xml**
 ```
 cd idp/ext-conf/conf/metadata-providers.xml
